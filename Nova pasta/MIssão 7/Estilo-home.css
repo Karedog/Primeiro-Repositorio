@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.limite-lateral{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto ;
+}
+main{
+    margin-top: 60px;
+    }
+main h3, main p{
+    text-align: center;
+}
+main h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: normal;
+}
+#rota, #sobre, #quartos{
+    padding-top: 60px;
+}
+/*seção 1*/
+.secao1{
+    position: fixed;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0;
+    top: 0;
+    box-shadow: inset 0 -1px 1px rgb(201, 195, 195);
+}
+.menu {
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+.menu a{
+    text-decoration: none;    
+     
+}
+.menu-logo span{
+    color:rgb(159, 159, 231) ; 
+}
+.menu-logo a{
+    color: black; 
+    padding: 5px;
+    font-size: 17px;
+}
+.menu-logo h1{
+    font-weight: normal;
+}
+.menu-opcoes ul{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-opcoes li{
+    display: inline;
+    padding: 5px;
+    margin: 0 5px;
+}
+.menu-opcoes li:hover{
+    box-shadow: 0 2px rgb(138, 134, 134);
+}
+/*seção 2*/
+.secao2-imagem{
+    background-image: url("assets/img-fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 170px 0;
+}
+.secao2-imagem div{
+    margin: 0 auto;
+    width: 470px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(78, 128, 103, 0.7);
+
+}
+.secao2-imagem h2, .secao2-imagem p{
+    color: white;
+}
+.secao2-imagem h2{
+    font-size: 50px;
+}
+.secao2-imagem p{
+    font-size: 25px;
+}
+/*seção 3*/
+.secao3-galeria a{
+    text-decoration: none;
+    color: black;
+}
+.secao3-galeria .secao3-card:hover{
+    box-shadow: 0 0 3px 3px rgb(145, 143, 143);
+}
+.secao3-galeria{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 0 15px;
+    box-sizing: border-box;
+    
+}
+.secao3-galeria .secao3-card{
+    flex: 1 0 300px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.secao3-galeria .card-imagem img{
+    width: 100%;
+}
+.secao3-galeria h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/* seção 4*/
+iframe{
+    margin-top: 20px;
+    width: 100%;
+    height: 450px;
+}
+/*seção 5*/
+.secao5-galeria{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 60px;
+
+}
+.secao5-card {
+    width: 430px;
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.secao5-card img{
+    width: 25%;
+    height: 100%;
+}
+.secao5-card div{
+   width: 72%;
+}
+.secao5-card p{
+    font-size: 15px;
+    text-align: left;
+}
+.secao5-card h4{
+    font-size: 20px;
+    text-align: left;
+    line-height: 20px;
+    margin-top: 5px;
+}
+/*seção 6*/
+.secao6, .secao7{
+    background-color: rgb(112, 150, 112);
+    padding: 1px 0;
+    color: white;
+}
+.secao6-galeria{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    border-bottom: 1px solid rgb(105, 129, 105);
+}
+.secao6-card{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    width: 220px;
+}
+.secao6-card img{
+    height: 35px;
+    margin-right:5px ;
+}
+.secao6-card p, .secao6 h4{
+    text-align: left;
+}
+.secao6 h4{
+    font-size: 20px;
+}
+/*seção 7*/
+.secao7{
+        text-align: center;
+}

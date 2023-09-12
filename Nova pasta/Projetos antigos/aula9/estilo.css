@@ -1,0 +1,75 @@
+body{
+    margin: 0 ;
+    font-family: verdana;
+}
+.lateral-maxima{
+    margin: 0 auto;
+    width:  100%;
+    max-width: 1024px;
+    text-align: left;
+}
+.menu div{
+   padding: 15px;
+
+}
+.capa img{
+    width: 100%;
+    opacity: 1;
+}
+
+.menu, .roda-pe{
+    background-color: rgb(69, 33, 153);
+    color: white;
+    margin: 0;
+}
+.menu ul, .menu li, h1{
+    display: inline;
+}
+h1{
+    margin-right: 30px;
+    font-size: 15px;
+    font-weight: normal;
+
+}
+.menu a{
+    padding: 5px 10px 5px 10px ;
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 10px;
+    color: rgb(69, 33, 153);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+.galeria-imagens img{
+    width: 350px;
+    height: 200px;
+    box-shadow: 5px 5px 5px rgb(112, 112, 112);
+    margin-right: 4px;
+    margin-left: 4px ;
+
+}
+.galeria-imagens{
+    display: flex;
+    overflow-x: scroll;
+    padding: 5px 5px;
+}
+.corpo h2{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.corpo p{
+    line-height: 30px;
+}
+.corpo .disponibilidade-tv img{
+    width: 100%;
+}
+.roda-pe p{
+    text-align: center;
+    font-size: 10px;
+    line-height: 15px;
+    padding: 5px;
+    margin: 0;
+}
+

@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    font-family: verdana;
+}
+.menu-topo{
+    background-color: rgb(122, 63, 63);
+    height: 60px;
+    width: calc(100%-6px);
+    text-align: right;
+    position: relative;
+    margin: 0;
+    padding: 3px;
+}
+.menu-topo li{
+   display: inline;
+   margin-left: 5px;
+}
+.menu-topo ul{
+    text-align: right;
+    margin-right: 20%;
+}
+.menu-topo .logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    left: 15%;
+}
+.menu-topo a{
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 3px 3px 2px rgb(114, 24, 24);
+    font-family: Cambria;
+}
+.menu-topo a,h3,.texto-meio h2, .texto-meio p{
+    color: rgb(219, 143, 143);
+}
+.parallax-comeco{
+    background-image: url('assets/parallax-imagem1.png');
+    background-size:110% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+    width: calc(100%-2);
+    padding:1px 1px;
+}
+.parallax-comeco h1{
+    text-align: center;
+    margin-top: 210px;
+    font-size: 60px;
+    color: aliceblue;
+}
+.parallax-meio{
+
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+width: 100%;
+text-align: center;
+padding: 1px 0;
+height: 348px;
+}
+.parallax-1{
+    background-image: url('assets/parallax-imagem2.jpg');
+}
+.parallax-2{
+    background-image: url('assets/parallax-imagem3.jpg');
+}
+.parallax-meio h3,#Contatos h2, #Contatos ul{
+padding: 10px 20px;
+background-color: rgb(122, 63, 63);
+margin: 150px auto;
+width: 260px;
+color: aliceblue;
+font-style: italic;
+font-weight: normal;
+font-size: 15px;
+line-height: 15px;
+text-shadow: 3px 3px 2px rgb(92, 17, 17);
+}
+.limite-lateral{
+    text-align: center;
+    padding: 1px 0;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.texto-meio h2{
+    font-size: 18px;
+    margin-top: 80px;
+    margin-bottom: 35px;
+}
+.texto-meio p{
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 70px;
+}
+#Contatos{
+    background-image: url('assets/parallax-imagem4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 1px 0;
+}
+#Contatos iframe{
+    width: 100%;
+    max-width: 900px;
+    height: 400px;
+}
+#Contatos h2{
+margin-top: 45px;
+margin-bottom: 45px;
+}
+#Contatos ul{
+    margin-top: 45px;
+margin-bottom: 45px;
+width: 550px;
+height: 75px;
+padding: 1px 1px;
+}
+#Contatos li{
+    font-size: 15px;
+    font-style: normal;
+    margin: 7px 5px;
+}
+
+.seta-cima{
+    
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+#horarios{
+    padding: 1PX 0;
+    border-top: 50px;
+    border-color: brown;
+    background-image: url('assets/cafeteria.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}

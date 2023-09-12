@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    font-family: Verdana;
+}
+.secao-topo{
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    color: rgb(233, 167, 69);
+    padding: 07px 0;
+    position: fixed;
+}
+h1{
+    font-size: 25px;
+}
+.secao-topo a{
+    font-size: 12px;
+    color: rgb(233, 167, 69);
+    padding: 0 10px;
+   
+
+}
+.banner img{
+    margin: 0;
+    width: 100vw;
+}
+.limite-lateral{
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+}
+.limite-lateral img{
+    width: 600px;
+    height: 320px;
+}
+h2{
+    margin: 30px 0;
+}
+.Consultores p, .Sobre .paragrafo-sobre2{
+    text-align: justify;
+    line-height: 25px;
+}
+.Sobre .paragrafo-sobre1{
+    text-align: center;
+}
+.Contatos p{
+    width: 100%;
+    background-color: black;
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
+}
+.Contatos a{
+    color: rgb(233, 167, 69);
+}
+.Consultores a{
+    color: rgb(233, 167, 69);
+}

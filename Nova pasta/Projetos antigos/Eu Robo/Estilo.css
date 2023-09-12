@@ -1,0 +1,40 @@
+div{
+    text-align: center;
+    margin: 0 auto;
+    border-top: 1px solid gray;
+    font-family: verdana;
+    padding: 50px;
+}
+p{
+    line-height: 30px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+a{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(134, 182, 63);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 90px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 20px;
+}
+span{
+    font-weight: bold;
+}
+img{
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+body{
+    margin: 0;
+}

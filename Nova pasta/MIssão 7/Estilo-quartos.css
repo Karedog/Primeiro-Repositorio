@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.limite-lateral{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto ;
+}
+main{
+    margin-top: 60px;
+}
+#rota, #sobre, #quartos{
+    padding-top: 60px;
+}
+/*seção 1*/
+.secao1{
+    position: fixed;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0;
+    top: 0;
+    box-shadow: inset 0 -1px 1px rgb(201, 195, 195);
+}
+.menu {
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+.menu a{
+    text-decoration: none;    
+     
+}
+.menu-logo span{
+    color:rgb(159, 159, 231) ; 
+}
+.menu-logo a{
+    color: black; 
+    padding: 5px;
+    font-size: 17px;
+}
+.menu-logo h1{
+    font-weight: normal;
+}
+.menu-opcoes ul{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-opcoes li{
+    display: inline;
+    padding: 5px;
+    margin: 0 5px;
+}
+.menu-opcoes li:hover{
+    box-shadow: 0 2px rgb(138, 134, 134);
+}
+.secao2 .background{
+    background-image: url('assets/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 60px 0;
+
+}
+.secao3{
+    text-align: center;
+}
+.quartos{
+    padding: 60px 0;
+}
+.secao3 h2{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.galeria{
+    display:flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 10px;
+    margin: 50px 0;
+    
+}
+.galeria div{
+    max-width: 350px;
+    width: 320px;
+    height: 240px;
+    flex-grow: 1;
+}
+.galeria img{
+    width: 100%;
+    height: 100%;
+}
+.galeria-informacoes ul{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.galeria-informacoes li{
+    text-align: left;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*seção 6*/
+.secao6, .secao7{
+    background-color: rgb(112, 150, 112);
+    padding: 1px 0;
+    color: white;
+}
+.secao6-galeria{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    border-bottom: 1px solid rgb(105, 129, 105);
+}
+.secao6-card{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    width: 220px;
+}
+.secao6-card img{
+    height: 35px;
+    margin-right:5px ;
+}
+.secao6-card p, .secao6 h4{
+    text-align: left;
+}
+.secao6 h4{
+    font-size: 20px;
+}
+/*seção 7*/
+.secao7{
+        text-align: center;
+}

@@ -1,0 +1,53 @@
+div{
+    font-family: Verdana;
+    margin: 0 auto;
+  text-align: center;
+}
+
+h1{
+text-align: center;
+font-size: 25px;
+line-height: 46px ;
+}
+
+h2{
+    text-align: center;
+   font-weight: normal;
+}
+
+h3{
+    text-decoration: none ;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ol{
+list-style-type: none;
+}
+div.Menu{
+    font-family:VERDANA;
+    font-size: 25px;
+    width: 900px;
+    margin: 0 auto;    
+}
+a{text-decoration: none;}
+
+p.MEENU{
+    font-weight: bold;
+    background-color: rgb(175, 141, 95);
+    text-align: center;
+    padding: 10px;
+    border-left: 8px solid rgb(153, 102, 68);
+    border-radius: 0 8px 30px 0;
+}
+a.tipo{
+    color: white;
+    padding: 0 30px;
+    border-bottom: 2px dashed rgb(244,244,150)
+    
+}
+div{
+border-bottom: 2px  rgb (244, 244, 150);
+font-size: 20px;
+font-family: Arial;
+text-decoration: underline;
+text-align: center;
+}

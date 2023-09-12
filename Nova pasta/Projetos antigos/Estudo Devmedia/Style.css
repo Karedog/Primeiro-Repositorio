@@ -1,0 +1,16 @@
+h1 {
+    font-size: 32px;
+    font-family: Verdana;
+    text-align: center;
+}
+
+a {
+    font-size: 14px;
+    font-family: Verdana;
+    text-decoration: none;
+}
+div{
+    text-align: left;
+    border-width: 30px;
+
+}

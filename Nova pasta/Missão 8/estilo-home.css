@@ -1,0 +1,53 @@
+*{margin: 0; padding: 0;}
+.limite-pequeno{
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: rgb(118, 199, 199);
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 60px;
+}
+.menu img{
+    height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+.menu a{
+    padding: 6px;
+    margin: 6px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*asdasasdasd*/
+
+.background{
+    width: 100%;
+    background-image: url('assets/recepcao2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: left;
+}
+.texto-back{
+    margin: 300px 0;
+}
+.texto-back h1, .texto-back p{
+    font-size: 60px;
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
